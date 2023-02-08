@@ -1,0 +1,891 @@
+namespace salesAndServicingMotors
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.pnlRegister = new System.Windows.Forms.Panel();
+            this.btnRegisterBack = new System.Windows.Forms.Button();
+            this.label11 = new System.Windows.Forms.Label();
+            this.pnlDobDropped = new System.Windows.Forms.Panel();
+            this.dataStoragePolicy = new System.Windows.Forms.CheckBox();
+            this.btnRegisterClear = new System.Windows.Forms.Button();
+            this.btnCreateAccount = new System.Windows.Forms.Button();
+            this.label12 = new System.Windows.Forms.Label();
+            this.btnDataStorageInfo = new System.Windows.Forms.Button();
+            this.RegisterdateOfBirth = new System.Windows.Forms.DateTimePicker();
+            this.txtRegisterPhoneNumber = new System.Windows.Forms.TextBox();
+            this.txtRegisterPassword = new System.Windows.Forms.TextBox();
+            this.txtRegisterSurname = new System.Windows.Forms.TextBox();
+            this.txtRegisterFirstname = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.txtRegisterEmail = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pnlLoginSelection = new System.Windows.Forms.Panel();
+            this.btnNewCustomer = new System.Windows.Forms.Button();
+            this.btnExistingEmployee = new System.Windows.Forms.Button();
+            this.btnReturningCustomer = new System.Windows.Forms.Button();
+            this.label2 = new System.Windows.Forms.Label();
+            this.pnlSettings = new System.Windows.Forms.Panel();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.trackBar1 = new System.Windows.Forms.TrackBar();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.pnlLogon = new System.Windows.Forms.Panel();
+            this.btnLogonBack = new System.Windows.Forms.Button();
+            this.label13 = new System.Windows.Forms.Label();
+            this.pnlLogonButtons = new System.Windows.Forms.Panel();
+            this.btnLogonClear = new System.Windows.Forms.Button();
+            this.btnCustLogin = new System.Windows.Forms.Button();
+            this.btnLogonForgotPassword = new System.Windows.Forms.Button();
+            this.txtLogonPassword = new System.Windows.Forms.TextBox();
+            this.label17 = new System.Windows.Forms.Label();
+            this.txtLogonUsername = new System.Windows.Forms.TextBox();
+            this.label20 = new System.Windows.Forms.Label();
+            this.label21 = new System.Windows.Forms.Label();
+            this.pnlEmpLogin = new System.Windows.Forms.Panel();
+            this.btnEmployeeLoginBack = new System.Windows.Forms.Button();
+            this.label14 = new System.Windows.Forms.Label();
+            this.pnlEmpLoginButtons = new System.Windows.Forms.Panel();
+            this.btnEmpLoginClear = new System.Windows.Forms.Button();
+            this.btnEmpLogin = new System.Windows.Forms.Button();
+            this.btnEmpLoginForgotPassword = new System.Windows.Forms.Button();
+            this.txtEmpLoginPassword = new System.Windows.Forms.TextBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.txtEmpLoginUsername = new System.Windows.Forms.TextBox();
+            this.label16 = new System.Windows.Forms.Label();
+            this.label18 = new System.Windows.Forms.Label();
+            this.pictureBoxEmpLogin = new System.Windows.Forms.PictureBox();
+            this.pictureBoxCustLogin = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.picBoxSettingsEmpLogin = new System.Windows.Forms.PictureBox();
+            this.picBoxSettingsCustReg = new System.Windows.Forms.PictureBox();
+            this.picBoxSettingsCustLogin = new System.Windows.Forms.PictureBox();
+            this.picBoxSettingsLoginSelector = new System.Windows.Forms.PictureBox();
+            this.btnClosePageSettings = new System.Windows.Forms.Button();
+            this.pnlRegister.SuspendLayout();
+            this.pnlDobDropped.SuspendLayout();
+            this.pnlLoginSelection.SuspendLayout();
+            this.pnlSettings.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
+            this.pnlLogon.SuspendLayout();
+            this.pnlLogonButtons.SuspendLayout();
+            this.pnlEmpLogin.SuspendLayout();
+            this.pnlEmpLoginButtons.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxEmpLogin)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCustLogin)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxSettingsEmpLogin)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxSettingsCustReg)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxSettingsCustLogin)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxSettingsLoginSelector)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // pnlRegister
+            // 
+            this.pnlRegister.BackColor = System.Drawing.Color.SkyBlue;
+            this.pnlRegister.Controls.Add(this.picBoxSettingsCustReg);
+            this.pnlRegister.Controls.Add(this.btnRegisterBack);
+            this.pnlRegister.Controls.Add(this.pictureBox1);
+            this.pnlRegister.Controls.Add(this.label11);
+            this.pnlRegister.Controls.Add(this.pnlDobDropped);
+            this.pnlRegister.Controls.Add(this.RegisterdateOfBirth);
+            this.pnlRegister.Controls.Add(this.txtRegisterPhoneNumber);
+            this.pnlRegister.Controls.Add(this.txtRegisterPassword);
+            this.pnlRegister.Controls.Add(this.txtRegisterSurname);
+            this.pnlRegister.Controls.Add(this.txtRegisterFirstname);
+            this.pnlRegister.Controls.Add(this.label10);
+            this.pnlRegister.Controls.Add(this.label9);
+            this.pnlRegister.Controls.Add(this.label8);
+            this.pnlRegister.Controls.Add(this.label7);
+            this.pnlRegister.Controls.Add(this.label6);
+            this.pnlRegister.Controls.Add(this.txtRegisterEmail);
+            this.pnlRegister.Controls.Add(this.label3);
+            this.pnlRegister.Controls.Add(this.label1);
+            this.pnlRegister.Location = new System.Drawing.Point(396, 1);
+            this.pnlRegister.Name = "pnlRegister";
+            this.pnlRegister.Size = new System.Drawing.Size(377, 430);
+            this.pnlRegister.TabIndex = 0;
+            // 
+            // btnRegisterBack
+            // 
+            this.btnRegisterBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRegisterBack.Location = new System.Drawing.Point(4, 3);
+            this.btnRegisterBack.Name = "btnRegisterBack";
+            this.btnRegisterBack.Size = new System.Drawing.Size(33, 29);
+            this.btnRegisterBack.TabIndex = 19;
+            this.btnRegisterBack.Text = "<";
+            this.btnRegisterBack.UseVisualStyleBackColor = true;
+            this.btnRegisterBack.Click += new System.EventHandler(this.btnRegisterBack_Click);
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(-2, 28);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(347, 15);
+            this.label11.TabIndex = 17;
+            this.label11.Text = "Please enter your details then click \'Create Account\' to proceed";
+            // 
+            // pnlDobDropped
+            // 
+            this.pnlDobDropped.Controls.Add(this.dataStoragePolicy);
+            this.pnlDobDropped.Controls.Add(this.btnRegisterClear);
+            this.pnlDobDropped.Controls.Add(this.btnCreateAccount);
+            this.pnlDobDropped.Controls.Add(this.label12);
+            this.pnlDobDropped.Controls.Add(this.btnDataStorageInfo);
+            this.pnlDobDropped.Location = new System.Drawing.Point(14, 363);
+            this.pnlDobDropped.Name = "pnlDobDropped";
+            this.pnlDobDropped.Size = new System.Drawing.Size(312, 67);
+            this.pnlDobDropped.TabIndex = 3;
+            // 
+            // dataStoragePolicy
+            // 
+            this.dataStoragePolicy.AutoSize = true;
+            this.dataStoragePolicy.Location = new System.Drawing.Point(213, 3);
+            this.dataStoragePolicy.Name = "dataStoragePolicy";
+            this.dataStoragePolicy.Size = new System.Drawing.Size(15, 14);
+            this.dataStoragePolicy.TabIndex = 19;
+            this.dataStoragePolicy.UseVisualStyleBackColor = true;
+            this.dataStoragePolicy.CheckedChanged += new System.EventHandler(this.dataStoragePolicy_CheckedChanged);
+            // 
+            // btnRegisterClear
+            // 
+            this.btnRegisterClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnRegisterClear.Location = new System.Drawing.Point(3, 20);
+            this.btnRegisterClear.Name = "btnRegisterClear";
+            this.btnRegisterClear.Size = new System.Drawing.Size(98, 43);
+            this.btnRegisterClear.TabIndex = 11;
+            this.btnRegisterClear.Text = "Clear";
+            this.btnRegisterClear.UseVisualStyleBackColor = true;
+            this.btnRegisterClear.Click += new System.EventHandler(this.btnRegisterClear_Click);
+            // 
+            // btnCreateAccount
+            // 
+            this.btnCreateAccount.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCreateAccount.Location = new System.Drawing.Point(107, 20);
+            this.btnCreateAccount.Name = "btnCreateAccount";
+            this.btnCreateAccount.Size = new System.Drawing.Size(98, 43);
+            this.btnCreateAccount.TabIndex = 10;
+            this.btnCreateAccount.Text = "Create Account";
+            this.btnCreateAccount.UseVisualStyleBackColor = true;
+            this.btnCreateAccount.Click += new System.EventHandler(this.btnCreateAccount_Click);
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.Location = new System.Drawing.Point(3, 0);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(204, 17);
+            this.label12.TabIndex = 18;
+            this.label12.Text = "Accept our data storage policy:";
+            // 
+            // btnDataStorageInfo
+            // 
+            this.btnDataStorageInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDataStorageInfo.Location = new System.Drawing.Point(211, 20);
+            this.btnDataStorageInfo.Name = "btnDataStorageInfo";
+            this.btnDataStorageInfo.Size = new System.Drawing.Size(98, 43);
+            this.btnDataStorageInfo.TabIndex = 1;
+            this.btnDataStorageInfo.Text = "How is your data stored?";
+            this.btnDataStorageInfo.UseVisualStyleBackColor = true;
+            this.btnDataStorageInfo.Click += new System.EventHandler(this.btnDataStorageInfo_Click);
+            // 
+            // RegisterdateOfBirth
+            // 
+            this.RegisterdateOfBirth.Location = new System.Drawing.Point(132, 178);
+            this.RegisterdateOfBirth.Name = "RegisterdateOfBirth";
+            this.RegisterdateOfBirth.Size = new System.Drawing.Size(200, 20);
+            this.RegisterdateOfBirth.TabIndex = 16;
+            this.RegisterdateOfBirth.CloseUp += new System.EventHandler(this.RegisterdateOfBirth_CloseUp);
+            this.RegisterdateOfBirth.DropDown += new System.EventHandler(this.RegisterdateOfBirth_DropDown);
+            // 
+            // txtRegisterPhoneNumber
+            // 
+            this.txtRegisterPhoneNumber.Location = new System.Drawing.Point(132, 150);
+            this.txtRegisterPhoneNumber.Name = "txtRegisterPhoneNumber";
+            this.txtRegisterPhoneNumber.Size = new System.Drawing.Size(193, 20);
+            this.txtRegisterPhoneNumber.TabIndex = 15;
+            // 
+            // txtRegisterPassword
+            // 
+            this.txtRegisterPassword.Location = new System.Drawing.Point(132, 124);
+            this.txtRegisterPassword.Name = "txtRegisterPassword";
+            this.txtRegisterPassword.PasswordChar = '*';
+            this.txtRegisterPassword.Size = new System.Drawing.Size(193, 20);
+            this.txtRegisterPassword.TabIndex = 13;
+            // 
+            // txtRegisterSurname
+            // 
+            this.txtRegisterSurname.Location = new System.Drawing.Point(132, 98);
+            this.txtRegisterSurname.Name = "txtRegisterSurname";
+            this.txtRegisterSurname.Size = new System.Drawing.Size(193, 20);
+            this.txtRegisterSurname.TabIndex = 12;
+            // 
+            // txtRegisterFirstname
+            // 
+            this.txtRegisterFirstname.Location = new System.Drawing.Point(132, 72);
+            this.txtRegisterFirstname.Name = "txtRegisterFirstname";
+            this.txtRegisterFirstname.Size = new System.Drawing.Size(193, 20);
+            this.txtRegisterFirstname.TabIndex = 9;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(19, 153);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(107, 17);
+            this.label10.TabIndex = 8;
+            this.label10.Text = "Mobile Number:";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(35, 178);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(91, 17);
+            this.label9.TabIndex = 7;
+            this.label9.Text = "Date of Birth:";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Location = new System.Drawing.Point(53, 124);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(73, 17);
+            this.label8.TabIndex = 6;
+            this.label8.Text = "Password:";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(57, 98);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(69, 17);
+            this.label7.TabIndex = 5;
+            this.label7.Text = "Surname:";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(52, 73);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(74, 17);
+            this.label6.TabIndex = 4;
+            this.label6.Text = "Firstname:";
+            // 
+            // txtRegisterEmail
+            // 
+            this.txtRegisterEmail.Location = new System.Drawing.Point(132, 46);
+            this.txtRegisterEmail.Name = "txtRegisterEmail";
+            this.txtRegisterEmail.Size = new System.Drawing.Size(193, 20);
+            this.txtRegisterEmail.TabIndex = 3;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(11, 46);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(115, 17);
+            this.label3.TabIndex = 2;
+            this.label3.Text = "Username/Email:";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(121, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(91, 25);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Register";
+            // 
+            // pnlLoginSelection
+            // 
+            this.pnlLoginSelection.Controls.Add(this.picBoxSettingsLoginSelector);
+            this.pnlLoginSelection.Controls.Add(this.label2);
+            this.pnlLoginSelection.Controls.Add(this.btnNewCustomer);
+            this.pnlLoginSelection.Controls.Add(this.btnExistingEmployee);
+            this.pnlLoginSelection.Controls.Add(this.btnReturningCustomer);
+            this.pnlLoginSelection.Location = new System.Drawing.Point(794, 12);
+            this.pnlLoginSelection.Name = "pnlLoginSelection";
+            this.pnlLoginSelection.Size = new System.Drawing.Size(304, 102);
+            this.pnlLoginSelection.TabIndex = 1;
+            // 
+            // btnNewCustomer
+            // 
+            this.btnNewCustomer.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnNewCustomer.Location = new System.Drawing.Point(110, 37);
+            this.btnNewCustomer.Name = "btnNewCustomer";
+            this.btnNewCustomer.Size = new System.Drawing.Size(96, 62);
+            this.btnNewCustomer.TabIndex = 4;
+            this.btnNewCustomer.Text = "I am a new customer";
+            this.btnNewCustomer.UseVisualStyleBackColor = true;
+            this.btnNewCustomer.Click += new System.EventHandler(this.btnNewCustomer_Click);
+            // 
+            // btnExistingEmployee
+            // 
+            this.btnExistingEmployee.Font = new System.Drawing.Font("Microsoft Sans Serif", 11F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnExistingEmployee.Location = new System.Drawing.Point(212, 37);
+            this.btnExistingEmployee.Name = "btnExistingEmployee";
+            this.btnExistingEmployee.Size = new System.Drawing.Size(89, 62);
+            this.btnExistingEmployee.TabIndex = 3;
+            this.btnExistingEmployee.Text = "I am an Employee";
+            this.btnExistingEmployee.UseVisualStyleBackColor = true;
+            this.btnExistingEmployee.Click += new System.EventHandler(this.btnExistingEmployee_Click);
+            // 
+            // btnReturningCustomer
+            // 
+            this.btnReturningCustomer.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnReturningCustomer.Location = new System.Drawing.Point(5, 37);
+            this.btnReturningCustomer.Name = "btnReturningCustomer";
+            this.btnReturningCustomer.Size = new System.Drawing.Size(99, 62);
+            this.btnReturningCustomer.TabIndex = 2;
+            this.btnReturningCustomer.Text = "I am a returning Customer";
+            this.btnReturningCustomer.UseVisualStyleBackColor = true;
+            this.btnReturningCustomer.Click += new System.EventHandler(this.btnReturningCustomer_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(1, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(277, 25);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "Sales and Servicing Motors";
+            // 
+            // pnlSettings
+            // 
+            this.pnlSettings.Controls.Add(this.btnClosePageSettings);
+            this.pnlSettings.Controls.Add(this.textBox1);
+            this.pnlSettings.Controls.Add(this.trackBar1);
+            this.pnlSettings.Controls.Add(this.label5);
+            this.pnlSettings.Controls.Add(this.label4);
+            this.pnlSettings.Location = new System.Drawing.Point(794, 125);
+            this.pnlSettings.Name = "pnlSettings";
+            this.pnlSettings.Size = new System.Drawing.Size(277, 476);
+            this.pnlSettings.TabIndex = 2;
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(18, 83);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(247, 20);
+            this.textBox1.TabIndex = 5;
+            this.textBox1.Text = "Example Text Size, Change the slider to adjust me!";
+            // 
+            // trackBar1
+            // 
+            this.trackBar1.AutoSize = false;
+            this.trackBar1.BackColor = System.Drawing.Color.DarkSlateBlue;
+            this.trackBar1.Location = new System.Drawing.Point(68, 46);
+            this.trackBar1.Name = "trackBar1";
+            this.trackBar1.Size = new System.Drawing.Size(206, 31);
+            this.trackBar1.TabIndex = 4;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(3, 46);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(70, 17);
+            this.label5.TabIndex = 3;
+            this.label5.Text = "Text Size:";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(94, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(91, 25);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "Settings";
+            // 
+            // pnlLogon
+            // 
+            this.pnlLogon.BackColor = System.Drawing.Color.SkyBlue;
+            this.pnlLogon.Controls.Add(this.picBoxSettingsCustLogin);
+            this.pnlLogon.Controls.Add(this.btnLogonBack);
+            this.pnlLogon.Controls.Add(this.pictureBoxCustLogin);
+            this.pnlLogon.Controls.Add(this.label13);
+            this.pnlLogon.Controls.Add(this.pnlLogonButtons);
+            this.pnlLogon.Controls.Add(this.txtLogonPassword);
+            this.pnlLogon.Controls.Add(this.label17);
+            this.pnlLogon.Controls.Add(this.txtLogonUsername);
+            this.pnlLogon.Controls.Add(this.label20);
+            this.pnlLogon.Controls.Add(this.label21);
+            this.pnlLogon.Location = new System.Drawing.Point(400, 444);
+            this.pnlLogon.Name = "pnlLogon";
+            this.pnlLogon.Size = new System.Drawing.Size(377, 157);
+            this.pnlLogon.TabIndex = 19;
+            // 
+            // btnLogonBack
+            // 
+            this.btnLogonBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogonBack.Location = new System.Drawing.Point(0, 0);
+            this.btnLogonBack.Name = "btnLogonBack";
+            this.btnLogonBack.Size = new System.Drawing.Size(33, 28);
+            this.btnLogonBack.TabIndex = 19;
+            this.btnLogonBack.Text = "<";
+            this.btnLogonBack.UseVisualStyleBackColor = true;
+            this.btnLogonBack.Click += new System.EventHandler(this.btnLogonBack_Click);
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label13.Location = new System.Drawing.Point(11, 25);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(343, 15);
+            this.label13.TabIndex = 17;
+            this.label13.Text = "Please enter your login credentials and click \'login\' to proceed";
+            // 
+            // pnlLogonButtons
+            // 
+            this.pnlLogonButtons.Controls.Add(this.btnLogonClear);
+            this.pnlLogonButtons.Controls.Add(this.btnCustLogin);
+            this.pnlLogonButtons.Controls.Add(this.btnLogonForgotPassword);
+            this.pnlLogonButtons.Location = new System.Drawing.Point(33, 106);
+            this.pnlLogonButtons.Name = "pnlLogonButtons";
+            this.pnlLogonButtons.Size = new System.Drawing.Size(312, 48);
+            this.pnlLogonButtons.TabIndex = 3;
+            // 
+            // btnLogonClear
+            // 
+            this.btnLogonClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogonClear.Location = new System.Drawing.Point(3, 3);
+            this.btnLogonClear.Name = "btnLogonClear";
+            this.btnLogonClear.Size = new System.Drawing.Size(98, 43);
+            this.btnLogonClear.TabIndex = 11;
+            this.btnLogonClear.Text = "Clear";
+            this.btnLogonClear.UseVisualStyleBackColor = true;
+            // 
+            // btnCustLogin
+            // 
+            this.btnCustLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCustLogin.Location = new System.Drawing.Point(107, 3);
+            this.btnCustLogin.Name = "btnCustLogin";
+            this.btnCustLogin.Size = new System.Drawing.Size(98, 43);
+            this.btnCustLogin.TabIndex = 10;
+            this.btnCustLogin.Text = "Login";
+            this.btnCustLogin.UseVisualStyleBackColor = true;
+            // 
+            // btnLogonForgotPassword
+            // 
+            this.btnLogonForgotPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogonForgotPassword.Location = new System.Drawing.Point(211, 3);
+            this.btnLogonForgotPassword.Name = "btnLogonForgotPassword";
+            this.btnLogonForgotPassword.Size = new System.Drawing.Size(98, 43);
+            this.btnLogonForgotPassword.TabIndex = 1;
+            this.btnLogonForgotPassword.Text = "Forgot Password?";
+            this.btnLogonForgotPassword.UseVisualStyleBackColor = true;
+            // 
+            // txtLogonPassword
+            // 
+            this.txtLogonPassword.Location = new System.Drawing.Point(132, 72);
+            this.txtLogonPassword.Name = "txtLogonPassword";
+            this.txtLogonPassword.PasswordChar = '*';
+            this.txtLogonPassword.Size = new System.Drawing.Size(193, 20);
+            this.txtLogonPassword.TabIndex = 13;
+            // 
+            // label17
+            // 
+            this.label17.AutoSize = true;
+            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label17.Location = new System.Drawing.Point(53, 73);
+            this.label17.Name = "label17";
+            this.label17.Size = new System.Drawing.Size(73, 17);
+            this.label17.TabIndex = 6;
+            this.label17.Text = "Password:";
+            // 
+            // txtLogonUsername
+            // 
+            this.txtLogonUsername.Location = new System.Drawing.Point(132, 46);
+            this.txtLogonUsername.Name = "txtLogonUsername";
+            this.txtLogonUsername.Size = new System.Drawing.Size(193, 20);
+            this.txtLogonUsername.TabIndex = 3;
+            // 
+            // label20
+            // 
+            this.label20.AutoSize = true;
+            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label20.Location = new System.Drawing.Point(11, 46);
+            this.label20.Name = "label20";
+            this.label20.Size = new System.Drawing.Size(115, 17);
+            this.label20.TabIndex = 2;
+            this.label20.Text = "Username/Email:";
+            // 
+            // label21
+            // 
+            this.label21.AutoSize = true;
+            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label21.Location = new System.Drawing.Point(135, 0);
+            this.label21.Name = "label21";
+            this.label21.Size = new System.Drawing.Size(65, 25);
+            this.label21.TabIndex = 0;
+            this.label21.Text = "Login";
+            // 
+            // pnlEmpLogin
+            // 
+            this.pnlEmpLogin.BackColor = System.Drawing.Color.SkyBlue;
+            this.pnlEmpLogin.Controls.Add(this.picBoxSettingsEmpLogin);
+            this.pnlEmpLogin.Controls.Add(this.btnEmployeeLoginBack);
+            this.pnlEmpLogin.Controls.Add(this.pictureBoxEmpLogin);
+            this.pnlEmpLogin.Controls.Add(this.label14);
+            this.pnlEmpLogin.Controls.Add(this.pnlEmpLoginButtons);
+            this.pnlEmpLogin.Controls.Add(this.txtEmpLoginPassword);
+            this.pnlEmpLogin.Controls.Add(this.label15);
+            this.pnlEmpLogin.Controls.Add(this.txtEmpLoginUsername);
+            this.pnlEmpLogin.Controls.Add(this.label16);
+            this.pnlEmpLogin.Controls.Add(this.label18);
+            this.pnlEmpLogin.Location = new System.Drawing.Point(12, 402);
+            this.pnlEmpLogin.Name = "pnlEmpLogin";
+            this.pnlEmpLogin.Size = new System.Drawing.Size(377, 157);
+            this.pnlEmpLogin.TabIndex = 20;
+            // 
+            // btnEmployeeLoginBack
+            // 
+            this.btnEmployeeLoginBack.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEmployeeLoginBack.Location = new System.Drawing.Point(0, 0);
+            this.btnEmployeeLoginBack.Name = "btnEmployeeLoginBack";
+            this.btnEmployeeLoginBack.Size = new System.Drawing.Size(33, 28);
+            this.btnEmployeeLoginBack.TabIndex = 19;
+            this.btnEmployeeLoginBack.Text = "<";
+            this.btnEmployeeLoginBack.UseVisualStyleBackColor = true;
+            this.btnEmployeeLoginBack.Click += new System.EventHandler(this.btnEmployeeLoginBack_Click);
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label14.Location = new System.Drawing.Point(11, 25);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(343, 15);
+            this.label14.TabIndex = 17;
+            this.label14.Text = "Please enter your login credentials and click \'login\' to proceed";
+            // 
+            // pnlEmpLoginButtons
+            // 
+            this.pnlEmpLoginButtons.Controls.Add(this.btnEmpLoginClear);
+            this.pnlEmpLoginButtons.Controls.Add(this.btnEmpLogin);
+            this.pnlEmpLoginButtons.Controls.Add(this.btnEmpLoginForgotPassword);
+            this.pnlEmpLoginButtons.Location = new System.Drawing.Point(33, 106);
+            this.pnlEmpLoginButtons.Name = "pnlEmpLoginButtons";
+            this.pnlEmpLoginButtons.Size = new System.Drawing.Size(312, 48);
+            this.pnlEmpLoginButtons.TabIndex = 3;
+            // 
+            // btnEmpLoginClear
+            // 
+            this.btnEmpLoginClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEmpLoginClear.Location = new System.Drawing.Point(3, 3);
+            this.btnEmpLoginClear.Name = "btnEmpLoginClear";
+            this.btnEmpLoginClear.Size = new System.Drawing.Size(98, 43);
+            this.btnEmpLoginClear.TabIndex = 11;
+            this.btnEmpLoginClear.Text = "Clear";
+            this.btnEmpLoginClear.UseVisualStyleBackColor = true;
+            // 
+            // btnEmpLogin
+            // 
+            this.btnEmpLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEmpLogin.Location = new System.Drawing.Point(107, 3);
+            this.btnEmpLogin.Name = "btnEmpLogin";
+            this.btnEmpLogin.Size = new System.Drawing.Size(98, 43);
+            this.btnEmpLogin.TabIndex = 10;
+            this.btnEmpLogin.Text = "Login";
+            this.btnEmpLogin.UseVisualStyleBackColor = true;
+            // 
+            // btnEmpLoginForgotPassword
+            // 
+            this.btnEmpLoginForgotPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnEmpLoginForgotPassword.Location = new System.Drawing.Point(211, 3);
+            this.btnEmpLoginForgotPassword.Name = "btnEmpLoginForgotPassword";
+            this.btnEmpLoginForgotPassword.Size = new System.Drawing.Size(98, 43);
+            this.btnEmpLoginForgotPassword.TabIndex = 1;
+            this.btnEmpLoginForgotPassword.Text = "Forgot Password?";
+            this.btnEmpLoginForgotPassword.UseVisualStyleBackColor = true;
+            // 
+            // txtEmpLoginPassword
+            // 
+            this.txtEmpLoginPassword.Location = new System.Drawing.Point(132, 72);
+            this.txtEmpLoginPassword.Name = "txtEmpLoginPassword";
+            this.txtEmpLoginPassword.PasswordChar = '*';
+            this.txtEmpLoginPassword.Size = new System.Drawing.Size(193, 20);
+            this.txtEmpLoginPassword.TabIndex = 13;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label15.Location = new System.Drawing.Point(53, 73);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(73, 17);
+            this.label15.TabIndex = 6;
+            this.label15.Text = "Password:";
+            // 
+            // txtEmpLoginUsername
+            // 
+            this.txtEmpLoginUsername.Location = new System.Drawing.Point(132, 46);
+            this.txtEmpLoginUsername.Name = "txtEmpLoginUsername";
+            this.txtEmpLoginUsername.Size = new System.Drawing.Size(193, 20);
+            this.txtEmpLoginUsername.TabIndex = 3;
+            // 
+            // label16
+            // 
+            this.label16.AutoSize = true;
+            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label16.Location = new System.Drawing.Point(11, 46);
+            this.label16.Name = "label16";
+            this.label16.Size = new System.Drawing.Size(115, 17);
+            this.label16.TabIndex = 2;
+            this.label16.Text = "Username/Email:";
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label18.Location = new System.Drawing.Point(95, -1);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(166, 25);
+            this.label18.TabIndex = 0;
+            this.label18.Text = "Employee Login";
+            // 
+            // pictureBoxEmpLogin
+            // 
+            this.pictureBoxEmpLogin.BackColor = System.Drawing.SystemColors.Control;
+            this.pictureBoxEmpLogin.BackgroundImage = global::salesAndServicingMotors.Properties.Resources.passwordEyeClosed;
+            this.pictureBoxEmpLogin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBoxEmpLogin.Location = new System.Drawing.Point(328, 60);
+            this.pictureBoxEmpLogin.Name = "pictureBoxEmpLogin";
+            this.pictureBoxEmpLogin.Size = new System.Drawing.Size(49, 40);
+            this.pictureBoxEmpLogin.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxEmpLogin.TabIndex = 18;
+            this.pictureBoxEmpLogin.TabStop = false;
+            // 
+            // pictureBoxCustLogin
+            // 
+            this.pictureBoxCustLogin.BackColor = System.Drawing.SystemColors.Control;
+            this.pictureBoxCustLogin.BackgroundImage = global::salesAndServicingMotors.Properties.Resources.passwordEyeClosed;
+            this.pictureBoxCustLogin.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBoxCustLogin.Location = new System.Drawing.Point(328, 60);
+            this.pictureBoxCustLogin.Name = "pictureBoxCustLogin";
+            this.pictureBoxCustLogin.Size = new System.Drawing.Size(49, 40);
+            this.pictureBoxCustLogin.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxCustLogin.TabIndex = 18;
+            this.pictureBoxCustLogin.TabStop = false;
+            this.pictureBoxCustLogin.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBoxCustLogin_MouseDown);
+            this.pictureBoxCustLogin.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pictureBoxCustLogin_MouseUp);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.SystemColors.Control;
+            this.pictureBox1.BackgroundImage = global::salesAndServicingMotors.Properties.Resources.passwordEyeClosed;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox1.Location = new System.Drawing.Point(325, 114);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(49, 40);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 18;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseDown);
+            this.pictureBox1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseUp);
+            // 
+            // picBoxSettingsEmpLogin
+            // 
+            this.picBoxSettingsEmpLogin.Image = global::salesAndServicingMotors.Properties.Resources.settings_icon_transparentBlue;
+            this.picBoxSettingsEmpLogin.Location = new System.Drawing.Point(328, 3);
+            this.picBoxSettingsEmpLogin.Name = "picBoxSettingsEmpLogin";
+            this.picBoxSettingsEmpLogin.Size = new System.Drawing.Size(46, 26);
+            this.picBoxSettingsEmpLogin.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picBoxSettingsEmpLogin.TabIndex = 20;
+            this.picBoxSettingsEmpLogin.TabStop = false;
+            // 
+            // picBoxSettingsCustReg
+            // 
+            this.picBoxSettingsCustReg.Image = global::salesAndServicingMotors.Properties.Resources.settings_icon_transparentBlue;
+            this.picBoxSettingsCustReg.Location = new System.Drawing.Point(328, 3);
+            this.picBoxSettingsCustReg.Name = "picBoxSettingsCustReg";
+            this.picBoxSettingsCustReg.Size = new System.Drawing.Size(46, 26);
+            this.picBoxSettingsCustReg.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picBoxSettingsCustReg.TabIndex = 21;
+            this.picBoxSettingsCustReg.TabStop = false;
+            // 
+            // picBoxSettingsCustLogin
+            // 
+            this.picBoxSettingsCustLogin.Image = global::salesAndServicingMotors.Properties.Resources.settings_icon_transparentBlue;
+            this.picBoxSettingsCustLogin.Location = new System.Drawing.Point(328, 2);
+            this.picBoxSettingsCustLogin.Name = "picBoxSettingsCustLogin";
+            this.picBoxSettingsCustLogin.Size = new System.Drawing.Size(46, 26);
+            this.picBoxSettingsCustLogin.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picBoxSettingsCustLogin.TabIndex = 22;
+            this.picBoxSettingsCustLogin.TabStop = false;
+            // 
+            // picBoxSettingsLoginSelector
+            // 
+            this.picBoxSettingsLoginSelector.Image = global::salesAndServicingMotors.Properties.Resources.settings_icon_transparentBlue;
+            this.picBoxSettingsLoginSelector.Location = new System.Drawing.Point(273, 0);
+            this.picBoxSettingsLoginSelector.Name = "picBoxSettingsLoginSelector";
+            this.picBoxSettingsLoginSelector.Size = new System.Drawing.Size(31, 26);
+            this.picBoxSettingsLoginSelector.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picBoxSettingsLoginSelector.TabIndex = 23;
+            this.picBoxSettingsLoginSelector.TabStop = false;
+            // 
+            // btnClosePageSettings
+            // 
+            this.btnClosePageSettings.BackColor = System.Drawing.Color.Red;
+            this.btnClosePageSettings.FlatAppearance.BorderColor = System.Drawing.Color.SkyBlue;
+            this.btnClosePageSettings.Location = new System.Drawing.Point(241, 0);
+            this.btnClosePageSettings.Name = "btnClosePageSettings";
+            this.btnClosePageSettings.Size = new System.Drawing.Size(36, 29);
+            this.btnClosePageSettings.TabIndex = 6;
+            this.btnClosePageSettings.Text = "X";
+            this.btnClosePageSettings.UseVisualStyleBackColor = false;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.SkyBlue;
+            this.ClientSize = new System.Drawing.Size(1150, 643);
+            this.Controls.Add(this.pnlEmpLogin);
+            this.Controls.Add(this.pnlLogon);
+            this.Controls.Add(this.pnlSettings);
+            this.Controls.Add(this.pnlLoginSelection);
+            this.Controls.Add(this.pnlRegister);
+            this.Name = "Form1";
+            this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.pnlRegister.ResumeLayout(false);
+            this.pnlRegister.PerformLayout();
+            this.pnlDobDropped.ResumeLayout(false);
+            this.pnlDobDropped.PerformLayout();
+            this.pnlLoginSelection.ResumeLayout(false);
+            this.pnlLoginSelection.PerformLayout();
+            this.pnlSettings.ResumeLayout(false);
+            this.pnlSettings.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
+            this.pnlLogon.ResumeLayout(false);
+            this.pnlLogon.PerformLayout();
+            this.pnlLogonButtons.ResumeLayout(false);
+            this.pnlEmpLogin.ResumeLayout(false);
+            this.pnlEmpLogin.PerformLayout();
+            this.pnlEmpLoginButtons.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxEmpLogin)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCustLogin)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxSettingsEmpLogin)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxSettingsCustReg)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxSettingsCustLogin)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.picBoxSettingsLoginSelector)).EndInit();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Panel pnlRegister;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Panel pnlLoginSelection;
+        private System.Windows.Forms.Button btnExistingEmployee;
+        private System.Windows.Forms.Button btnReturningCustomer;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btnNewCustomer;
+        private System.Windows.Forms.Button btnDataStorageInfo;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Panel pnlSettings;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TrackBar trackBar1;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox txtRegisterEmail;
+        private System.Windows.Forms.TextBox txtRegisterPassword;
+        private System.Windows.Forms.TextBox txtRegisterSurname;
+        private System.Windows.Forms.Button btnRegisterClear;
+        private System.Windows.Forms.Button btnCreateAccount;
+        private System.Windows.Forms.TextBox txtRegisterFirstname;
+        private System.Windows.Forms.DateTimePicker RegisterdateOfBirth;
+        private System.Windows.Forms.TextBox txtRegisterPhoneNumber;
+        private System.Windows.Forms.Panel pnlDobDropped;
+        private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.CheckBox dataStoragePolicy;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Panel pnlLogon;
+        private System.Windows.Forms.PictureBox pictureBoxCustLogin;
+        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Panel pnlLogonButtons;
+        private System.Windows.Forms.Button btnLogonClear;
+        private System.Windows.Forms.Button btnCustLogin;
+        private System.Windows.Forms.Button btnLogonForgotPassword;
+        private System.Windows.Forms.TextBox txtLogonPassword;
+        private System.Windows.Forms.Label label17;
+        private System.Windows.Forms.TextBox txtLogonUsername;
+        private System.Windows.Forms.Label label20;
+        private System.Windows.Forms.Label label21;
+        private System.Windows.Forms.Button btnRegisterBack;
+        private System.Windows.Forms.Button btnLogonBack;
+        private System.Windows.Forms.Panel pnlEmpLogin;
+        private System.Windows.Forms.Button btnEmployeeLoginBack;
+        private System.Windows.Forms.PictureBox pictureBoxEmpLogin;
+        private System.Windows.Forms.Label label14;
+        private System.Windows.Forms.Panel pnlEmpLoginButtons;
+        private System.Windows.Forms.Button btnEmpLoginClear;
+        private System.Windows.Forms.Button btnEmpLogin;
+        private System.Windows.Forms.Button btnEmpLoginForgotPassword;
+        private System.Windows.Forms.TextBox txtEmpLoginPassword;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.TextBox txtEmpLoginUsername;
+        private System.Windows.Forms.Label label16;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.PictureBox picBoxSettingsCustReg;
+        private System.Windows.Forms.PictureBox picBoxSettingsLoginSelector;
+        private System.Windows.Forms.PictureBox picBoxSettingsCustLogin;
+        private System.Windows.Forms.PictureBox picBoxSettingsEmpLogin;
+        private System.Windows.Forms.Button btnClosePageSettings;
+    }
+}
+

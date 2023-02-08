@@ -1,0 +1,48 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Data.OleDb;
+
+namespace salesAndServicingMotors
+{
+    public static class Connection
+    {
+        private static OleDbConnection sqlconn = new OleDbConnection();
+
+        static Connection()
+        {
+            if (sqlconn.ConnectionString == null)
+            {
+                string dbProvider = "Provider = Microsoft.ACE.OLEDB.12.0;";
+                string dbSource = "Data Source = ../../";
+                sqlconn.ConnectionString= dbProvider + dbSource;
+                OpenDb();                   
+            }
+        }
+        public static string OpenDb()
+        {
+            string rMsg = "";
+            try
+            {
+                sqlconn.Open();
+                rMsg = "Open";
+            }
+            catch (Exception ex)
+            {
+                rMsg = ex.ToString();
+            }
+            return rMsg;
+        }
+
+        public static void CloseDb()
+        {
+            try
+            {
+                sqlconn.Close();
+            }
+            catch { }
+        }
+    }
+}
